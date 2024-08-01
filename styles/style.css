@@ -161,6 +161,7 @@ ul li a{
     font-weight: 900;
 }
 .hero-img img{
+    margin-top: 32px;
     width: 350px;
     height: 580px;
 }
@@ -169,7 +170,7 @@ ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -230px;
+    margin-top: -200px;
     margin-left:-120px;
     width: 200px;
     height: 95px;
