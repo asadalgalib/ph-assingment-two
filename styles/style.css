@@ -55,7 +55,7 @@ body{
 section{
     margin: 0 auto;
     max-width: 1440px;
-    height: 100vh;
+    max-height: 715px;
 }
 /* hero section */
 header{
@@ -139,6 +139,7 @@ ul li a{
 .hero-text p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
+    line-height: 20px;
     margin-bottom: 30px;
 }
 .hero-photo{
@@ -204,6 +205,94 @@ ul li a{
     text-align: center;
 }
 /* habits style */
+.habits{
+    margin: 100px auto;
+    max-width: 1060px;
+}
+.habits-text{
+    margin: 0 auto;
+    max-width: 670px;
+}
+.habits-text h1{
+    margin-bottom: 15px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+.habits-text p{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.habits-card{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.habits-card-one{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 275px;
+}
+.habits-card-one img{
+    margin: 0 auto;
+    width: auto;
+    height: 180px;
+    border-radius: 50%;
+}
+.habits-card-one h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 25px;
+    text-align: center;
+    color: #fff;
+}
+.habits-card-one p{
+    font-size: 0.875rem;
+    margin-top: 5px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+}
+/* run-extra */
+.run-extra{
+    margin: 0 auto;
+    max-width: 1060px;
+}
+.run-extra-content{
+    margin-bottom: 100px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 165px;
+
+}
+.run-extra-text h1{
+    margin-bottom: 25px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+}
+.run-extra-text p{
+    margin-bottom: 25px;
+    font-size: 0.875rem;
+    color:rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.3;
+    line-height: 24px;
+}
+.run-extra-img img{
+    height: 300px;
+    width: 365px;
+    border-radius: 18px;
+}
+
+
+
 
 /* responsive */
 /* header */
