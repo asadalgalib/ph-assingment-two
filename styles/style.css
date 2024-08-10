@@ -287,10 +287,46 @@ ul li a{
 }
 .run-extra-img img{
     height: 300px;
-    width: 365px;
+    width: 385px;
     border-radius: 18px;
+    object-fit: none;
+    object-position: 68% 30%;
 }
+/* trainings */
+.trainings{
+    margin:0 auto;
+    max-width: 1060px;
+    border: 1px solid red;
+}
+.trainings-text h1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    color: #fff;
+}
+.trainings-text p{
+    font-size: 0.875rem;
+    color:rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.3;
+    line-height: 24px;
+}
+.training-photo-row-one{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.row-one-photo-one{
+    height: 218px;
+    background: url(/images/exercise1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row-one-photo-two{
 
+}
+.row-one-photo-three{
+
+}
 
 
 
