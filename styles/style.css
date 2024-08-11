@@ -29,7 +29,7 @@ body{
     font-size: 1.125rem;
     color: #fff;
     font-weight: 600;
-    padding: 16px 40px;
+    padding: 16px 50px;
     border-radius: 40px;
     background: rgb(230, 83, 60);
 }
@@ -39,7 +39,7 @@ body{
     font-size: 1.125rem;
     color: #fff;
     font-weight: 600;
-    padding: 16px 40px;
+    padding: 16px 50px;
     border-radius: 40px;
     background: transparent;
 }
@@ -61,7 +61,7 @@ section{
 header{
     margin: 0 auto;
     max-width: 1440px;
-    height: 100vh;
+    max-height: 2000px;
     background: linear-gradient( rgb(10, 10, 10),rgb(20, 20, 20),rgb(10, 10, 10));
 }
 
@@ -206,7 +206,8 @@ ul li a{
 }
 /* habits style */
 .habits{
-    margin: 100px auto;
+    margin:0 auto ;
+    margin-top: 100px;
     max-width: 1060px;
 }
 .habits-text{
@@ -260,6 +261,7 @@ ul li a{
 /* run-extra */
 .run-extra{
     margin: 0 auto;
+    margin-top: 100px;
     max-width: 1060px;
 }
 .run-extra-content{
@@ -296,7 +298,6 @@ ul li a{
 .trainings{
     margin:0 auto;
     max-width: 1060px;
-    border: 1px solid red;
 }
 .trainings-text h1{
     font-size: 3rem;
@@ -313,19 +314,66 @@ ul li a{
 .training-photo-row-one{
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:1fr 2fr 1fr;
 }
 .row-one-photo-one{
-    height: 218px;
-    background: url(/images/exercise1.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 215px;
+    background:url(/images/exercise1.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-blend-mode: overlay;
+    background-color: rgba(6, 255, 210, 0.5);
 }
 .row-one-photo-two{
-
+    height: 215px;
+    background: url(/images/exercise2.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 0, 0, 0.3) ;
 }
 .row-one-photo-three{
-
+    height: 215px;
+    background: url(/images/exercise3.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.training-photo-row-two{
+    margin-top:0px;
+    display: grid;
+    grid-template-columns:1.7fr 1fr 1.3fr;
+}
+.row-two-photo-one{
+    height: 215px;
+    background:url(/images/exercise4.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.row-two-photo-two{
+    height: 215px;
+    background: url(/images/exercise5.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:rgba(66, 255, 0, 0.3) ;
+}
+.row-two-photo-three{
+    height: 215px;
+    background: url(/images/exercise6.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 71, 255, 0.3);
 }
 
 
@@ -343,7 +391,7 @@ ul li a{
     .menu-icon{      
         display:flex;
         margin-top: 20px;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     .hero-content{
         margin-left: 20px;
@@ -363,9 +411,11 @@ ul li a{
         font-weight: 800;
     }
     .hero-img img{
-        margin-top: -10px;
+        margin-left: 30px;
+        margin-top: -20px;
+        margin-bottom: 0;
         /* margin-left: -220px; */
-        width: 300px;
+        width: 250px;
         height: auto;
     }
     .btn-pri{
@@ -381,14 +431,14 @@ ul li a{
     .hero-card-one{
         width: 190px;
         height: 80px;
-        margin-bottom: -300px;
-        margin-left: -20px;
-        margin-right:-170px;
+        margin-bottom: -280px;
+        margin-left: -10px;
+        margin-right:-150px;
     }
     .hero-card-two{
         width: 190px;
         height: 80px;
-        margin-top: -160px;
-        margin-left:-200px;
+        margin-top: -90px;
+        margin-left:-160px;
     }
 }
