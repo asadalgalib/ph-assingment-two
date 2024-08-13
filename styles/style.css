@@ -52,6 +52,9 @@ body{
 .p-color{
     color: rgba(255, 255, 255, 0.5);
 }
+.scn-btn{
+    display: none;
+}
 section{
     margin: 0 auto;
     margin-top: 100px;
@@ -62,7 +65,7 @@ section{
 header{
     margin: 0 auto;
     max-width: 1440px;
-    max-height: 2000px;
+    height: 100vh;
     background: linear-gradient( rgb(10, 10, 10),rgb(20, 20, 20),rgb(10, 10, 10));
 }
 
@@ -133,7 +136,7 @@ ul li a{
 .shape{
     font-family: Miama ;
     font-size: 9rem;
-    font-weight: 900;
+    font-weight: 700;
     color: #fff;
     letter-spacing: 100%;
 }
@@ -226,6 +229,7 @@ ul li a{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 0.875rem;
+    line-height: 24px;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
@@ -378,6 +382,19 @@ ul li a{
     background-blend-mode: overlay;
     background-color: rgba(0, 71, 255, 0.3);
 }
+.row-one-photo-one p,.row-one-photo-three p,.row-two-photo-two p,
+.row-two-photo-three p{
+    position: relative;
+    margin-left: 20px;
+    margin-top:160px;
+    color: #fff;
+}
+.row-one-photo-two p,.row-two-photo-one p{
+    position: relative;
+    margin-left: 20px;
+    margin-top:160px;
+    color: #fff;
+}
 /* BMI Calculator */
 .bmi-text{
     margin: 0 auto;
@@ -392,6 +409,7 @@ ul li a{
 }
 .bmi-text p{
     font-size: 0.875rem;
+    line-height: 24px;
     margin-top: 10px;
     color:rgba(255, 255, 255, 0.5);
 }
@@ -442,6 +460,7 @@ ul li a{
 }
 .bmi-calculate p{
     font-size: 0.875rem;
+    line-height: 24px;
     margin-top: 15px;
     margin-bottom: 35px;
     color:rgba(255, 255, 255, 0.5);
@@ -522,12 +541,13 @@ ul li a{
 }
 .team-text p{
     font-size: 0.875rem;
+    line-height: 24px;
     margin-top: 10px;
     color:rgba(255, 255, 255, 0.5);
 }
 .team-photo{
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     padding: 20px;
     width: 1060px;
     height: auto;
@@ -641,22 +661,57 @@ footer{
     grid-template-columns: 2fr 1fr 1fr;
     gap: 100px;
 }
-
-
-
-
-
-
-
-
-
+.footer-row-one h1{
+    font-size: 4rem;
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+}
+.footer-row-one p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    margin-top: 20px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.footer-row-two h3,.footer-row-three h3{
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+}
+.footer-row-two li,.footer-row-three li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-row-two a,.footer-row-three a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-credit p{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
 hr{
+    margin-top: 60px;
     border: 1px solid rgba(255, 255, 255, 0.1);;
 }
 
 /* responsive */
 /* header */
 @media screen and (max-width:576px){
+    header{
+        height: auto;
+    }
     .menu{
         display: none;
     }
@@ -667,9 +722,9 @@ hr{
     .menu-icon{      
         display:flex;
         margin-top: 20px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
-    .hero-content{
+     .hero-content{
         margin-left: 20px;
         margin-right: 20px;
         display: grid;
@@ -678,43 +733,80 @@ hr{
     .hero-text{
         width: 350px;
     }
-    .hero-text h1{
-        margin-top: 100px;
-    }
     .shape{
-        font-family: Miama ;
-        font-size: 4rem;
-        font-weight: 800;
+        font-size: 6rem;
+        font-weight: 500;
     }
-    .hero-img img{
-        margin-left: 30px;
-        margin-top: -20px;
-        margin-bottom: 0;
-        /* margin-left: -220px; */
-        width: 250px;
-        height: auto;
+    .hero-text h1{
+        margin: 0;
+        margin-top: 50px;
+        font-size: 2.5rem;
+    }
+    .hero-text p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .fst-btn{
+        display: none;
+    }
+    .scn-btn{
+        display: inline;
     }
     .btn-pri{
+        font-size: 1.125rem;
         padding: 10px 30px;
         border-radius: 40px;
     }
     .btn-sec{
-        padding: 10px 30px;
+        font-size: 1.125rem;
+        padding: 10px 20px;
         border-radius: 40px;
-        margin-left: 0;
-        margin-top: 20px;
+       
+    }
+    .hero-img{
+        width: 350px;
+        height: 580px;
+    }
+    .hero-img img{
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
     }
     .hero-card-one{
-        width: 190px;
-        height: 80px;
-        margin-bottom: -280px;
+        width: 160px;
+        height: 75px;
+        margin-bottom: -400px;
         margin-left: -10px;
-        margin-right:-150px;
+        margin-right:-170px;
+    }
+    .hero-card-one-text h1{
+        font-size:1.25rem ;
+        color: #fff;
+        font-weight: 900;
+    }
+    .hero-card-one-text p{
+        margin-top: 5px;
+        font-size:0.75rem ;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 500;
     }
     .hero-card-two{
-        width: 190px;
-        height: 80px;
-        margin-top: -90px;
-        margin-left:-160px;
+        width: 180px;
+        height: 90px;
+        margin-top: -120px;
+        margin-left:-200px;
+    }
+    .hero-card-two-text h1{
+        font-size:1.5rem ;
+        color: #fff;
+        font-weight: 900;
+    }
+    .hero-card-two-text p{
+        margin-top: 5px;
+        font-size:0.75rem ;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: 500;
     }
 }
