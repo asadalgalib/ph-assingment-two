@@ -503,6 +503,144 @@ ul li a{
     padding: 14px 50px;
     margin-top: 60px;
 }
+/* team section */
+.team{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1060px;
+}
+.team-text{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 640px;
+}
+.team-text h1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    color: #fff;
+}
+.team-text p{
+    font-size: 0.875rem;
+    margin-top: 10px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.team-photo{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    width: 1060px;
+    height: auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.team-photo-one{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+    background: url(/images/trainer1.png);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-photo-two{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+    background: url(/images/trainer2.png);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-photo-three{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+    background: url(/images/trainer3.png);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-photo-four{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+    background: url(/images/trainer4.png);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-photo-five{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+    background: url(/images/trainer5.png);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-photo-six{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+    background: url(/images/trainer6.png);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-photo-one h3,.team-photo-two h3,.team-photo-three h3,
+.team-photo-four h3,.team-photo-five h3,.team-photo-six h3{
+    position: relative;
+    margin-left: 20px;
+    margin-top:210px;
+    color: #fff;
+}
+.team-photo-one p,.team-photo-two p,.team-photo-three p,
+.team-photo-four p,.team-photo-five p,.team-photo-six p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color:rgba(255, 255, 255, 0.5);
+}
+/* footer */
+footer{
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    padding: 60px 190px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-text{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 100px;
+}
 
 
 
@@ -512,7 +650,9 @@ ul li a{
 
 
 
-
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+}
 
 /* responsive */
 /* header */
