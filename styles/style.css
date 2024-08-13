@@ -29,7 +29,7 @@ body{
     font-size: 1.125rem;
     color: #fff;
     font-weight: 600;
-    padding: 16px 50px;
+    padding: 16px 40px;
     border-radius: 40px;
     background: rgb(230, 83, 60);
 }
@@ -39,7 +39,7 @@ body{
     font-size: 1.125rem;
     color: #fff;
     font-weight: 600;
-    padding: 16px 50px;
+    padding: 16px 40px;
     border-radius: 40px;
     background: transparent;
 }
@@ -421,20 +421,92 @@ ul li a{
     font-size: 1rem;
     font-weight: 500;
     border:  1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     color: #fff;
 }
 .bmi-chart td{
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding:12px 18px ;
     text-align: center;
     font-size: 0.875rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
+.bmi-calculate h3{
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    color: #fff;
+}
+.bmi-calculate p{
+    font-size: 0.875rem;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.bmi-calculate .height{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    width: 265px;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+}
+.bmi-calculate .weight{
+    margin-top: 10px;
+    padding: 15px 20px;
+    width: 265px;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+}
+.bmi-calculate .age{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    width: 265px;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+}
+.bmi-calculate .gender{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    width: 265px;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+}
+.bmi-calculate .factor{
+    margin-top: 10px;
+    padding: 15px 20px;
+    width: 545px;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+}
+.btn-cal{
+    padding: 14px 50px;
+    margin-top: 60px;
+}
+
+
+
+
 
 
 
