@@ -850,12 +850,24 @@ hr{
         margin:0 20px;
     }
     .row-one-photo-one{
+        background:url(../images/exercise1.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 130%;
+        background-blend-mode: overlay;
+        background-color: rgba(6, 255, 210, 0.5);
         height: 140px;
         width: 100%;
     }
     .row-one-photo-two{
         height: 140px;
         width: 100%;
+        background: url(../images/exercise2.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgba(255, 0, 0, 0.3) ;
     }
     .row-one-photo-three{
         display: none;
@@ -863,10 +875,22 @@ hr{
     .row-two-photo-one{
         height: 140px;
         width: 100%;
+        background: url(../images/exercise4.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.5);
     }
     .row-two-photo-two{
         height: 140px;
         width: 100%;
+        background: url(../images/exercise5.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        background-color:rgba(66, 255, 0, 0.3) ;
     }
     .row-two-photo-three{
         display: none;
