@@ -560,7 +560,7 @@ ul li a{
     margin-top: 60px;
     margin-bottom: 100px;
     padding: 20px;
-    width: 1060px;
+    max-width: 1060px;
     height: auto;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
@@ -569,10 +569,11 @@ ul li a{
     gap: 20px;
 }
 .team-photo-one{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 325px;
-    height: 270px;
+    height: auto;
     border-radius: 18px;
     background: url(/images/trainer1.png);
     background-blend-mode: overlay;
@@ -582,6 +583,7 @@ ul li a{
     background-repeat: no-repeat;
 }
 .team-photo-two{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -595,6 +597,7 @@ ul li a{
     background-repeat: no-repeat;
 }
 .team-photo-three{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -608,6 +611,7 @@ ul li a{
     background-repeat: no-repeat;
 }
 .team-photo-four{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -621,6 +625,7 @@ ul li a{
     background-repeat: no-repeat;
 }
 .team-photo-five{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -634,6 +639,7 @@ ul li a{
     background-repeat: no-repeat;
 }
 .team-photo-six{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -956,5 +962,14 @@ hr{
     }
     .btn-cal{
         margin-top: 35px;
+    }
+    /* team section */
+    .team{
+        margin-top: 65px;
+    }
+    .team-photo{
+        margin: 0 20px;
+        margin-top: 40px;
+        grid-template-columns: repeat(1,1fr);
     }
 }
