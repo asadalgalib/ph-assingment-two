@@ -145,7 +145,7 @@ ul li a{
     margin-bottom: 25px;
 }
 .shape{
-    font-family: Miama ;
+    font-family: 'Miama', sans-serif;
     font-size: 9rem;
     font-weight: 700;
     color: #fff;
@@ -726,6 +726,10 @@ hr{
 /* responsive */
 /* header */
 @media screen and (max-width:576px){
+    section{
+        margin: 0 auto;
+        margin-top: 60px;
+    }
     header{
         height: auto;
     }
@@ -748,7 +752,7 @@ hr{
         grid-template-columns: repeat(1,1fr);
     }
     .hero-text{
-        width: 350px;
+        width: 340px;
     }
     .shape{
         font-family: 'Miama', sans-serif;
@@ -838,6 +842,10 @@ hr{
     .habits{
         margin:0 20px ;
     }
+    .habits-text h1{
+        font-size: 2rem;
+        font-weight: 900;
+    }
     .habits-card{
         margin-top:60px;
 
@@ -853,6 +861,10 @@ hr{
         flex-direction: column;
         justify-content: space-between;
         gap: 40px;
+    }
+    .run-extra-text h1{
+        font-size: 2rem;
+        font-weight: 900;
     }
     .run-extra-text p{
         font-size: 1rem;
@@ -871,6 +883,10 @@ hr{
     /* trainings */
     .trainings{
         margin:0 20px;
+    }
+    .trainings-text h1{
+        font-size: 2rem;
+        font-weight: 900;
     }
     .row-one-photo-one{
         background:url(../images/exercise1.jpg);
@@ -936,7 +952,11 @@ hr{
     .bmi-text{
         margin: 0 20px;
     }
-    .bmi-text h1,.bmi-text p,.bmi-chart h3{
+    .bmi-text h1{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .bmi-chart h3{
         text-align: center;
     } 
     .bmi-cal{
@@ -975,6 +995,10 @@ hr{
     /* team section */
     .team{
         margin-top: 65px;
+    }
+    .team-text h1{
+        font-size: 2rem;
+        font-weight: 900;
     }
     .team-text{
         margin: 0 20px;
