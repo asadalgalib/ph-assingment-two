@@ -337,7 +337,7 @@ ul li a{
 }
 .row-one-photo-one{
     height: 215px;
-    background:url(/images/exercise1.jpg);
+    background:url(../images/exercise1.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: 125%;
@@ -346,7 +346,7 @@ ul li a{
 }
 .row-one-photo-two{
     height: 215px;
-    background: url(/images/exercise2.png);
+    background: url(../images/exercise2.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,7 +355,7 @@ ul li a{
 }
 .row-one-photo-three{
     height: 215px;
-    background: url(/images/exercise3.png);
+    background: url(../images/exercise3.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -369,7 +369,7 @@ ul li a{
 }
 .row-two-photo-one{
     height: 215px;
-    background:url(/images/exercise4.png);
+    background:url(../images/exercise4.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -378,7 +378,7 @@ ul li a{
 }
 .row-two-photo-two{
     height: 215px;
-    background: url(/images/exercise5.jpg);
+    background: url(../images/exercise5.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -387,7 +387,7 @@ ul li a{
 }
 .row-two-photo-three{
     height: 215px;
-    background: url(/images/exercise6.jpg);
+    background: url(../images/exercise6.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
