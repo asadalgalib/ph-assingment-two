@@ -515,6 +515,7 @@ ul li a{
     width: 265px;
     text-align: left;
     border: none;
+    border-right: 20px solid transparent;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color:rgba(255, 255, 255, 0.5);
@@ -525,6 +526,7 @@ ul li a{
     width: 545px;
     text-align: left;
     border: none;
+    border-right: 20px solid transparent;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color:rgba(255, 255, 255, 0.5);
